@@ -61,8 +61,8 @@ ABOUT_TEXT = """
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Index Channel', url='https://telegram.me/cartoon_seriesz'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/Dlaize')
+        InlineKeyboardButton('Updates Channel', url='https://telegram.me/SCTbots'),
+        InlineKeyboardButton('Support Group', url='https://telegram.me/Dlaize')
         ],[
         InlineKeyboardButton('♨️ Help', callback_data='help'),
         InlineKeyboardButton('ⓘ About', callback_data='about'),
