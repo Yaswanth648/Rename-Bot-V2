@@ -30,9 +30,9 @@ AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split( ))
 PROCESS_MAX_TIMEOUT = int(os.environ.get("TIME_LIMIT"))
 ADL_BOT_RQ = {}
 START_TEXT = """
-Hello {},\nI'm a Simple Telegram File or Media RenameBot v2 with Permanent Thumbnail Support. 🔥
+Hello {},\nI'm a Simple Telegram File or Media SCT RenameBot  with Permanent Thumbnail Support. 🔥
 
-Made by Mr. @Dlaize
+Made by Mr. @ValT_Aio
 """
 HELP_TEXT = """
 <b><u>Rename</u></b>
@@ -48,11 +48,11 @@ HELP_TEXT = """
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb for view current thumbnail.
 
-Made by @Dlaize
+Made by @ValT_Aio
 """
 ABOUT_TEXT = """
 **🎗️ Bot :** `SCT Rename Bot`
-**🎗️ Creator :** [Harsha](https://telegram.me/Harsha01)
+**🎗️ Creator :** [Rakesh](https://telegram.me/ValT_Aio)
 **🎗️ Channel :** [SCT Bots](https://telegram.me/SCTBots)
 **🎗️ Source :** [Private]
 **🎗️ Language :** [Python3](https://python.org)
