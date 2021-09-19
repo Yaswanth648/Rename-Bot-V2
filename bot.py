@@ -51,10 +51,10 @@ HELP_TEXT = """
 Made by @Dlaize
 """
 ABOUT_TEXT = """
-**🎗️ Bot :** `RenameBot v2`
-**🎗️ Creator :** [Dlaize](https://telegram.me/Dlaize)
-**🎗️ Channel :** [Compass Bots](https://telegram.me/compass_botz)
-**🎗️ Source :** [Click here](https://github.com/dakshkohli23/Rename-Bot-V2)
+**🎗️ Bot :** `SCT Rename Bot`
+**🎗️ Creator :** [Harsha](https://telegram.me/Harsha01)
+**🎗️ Channel :** [SCT Bots](https://telegram.me/SCTBots)
+**🎗️ Source :** [Private]
 **🎗️ Language :** [Python3](https://python.org)
 **🎗️ Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 **🎗️ Server :** [Heroku](https://heroku.com)
@@ -62,7 +62,10 @@ ABOUT_TEXT = """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Updates Channel', url='https://telegram.me/SCTbots'),
-        InlineKeyboardButton('Support Group', url='https://telegram.me/Dlaize')
+        InlineKeyboardButton('Support Group', url='https://telegram.me/SCT_Bot_Support')
+        ],[
+        InlineKeyboardButton('Anime Index', url='https://telegram.me/AnimeArhcivers'),
+        InlineKeyboardButton('Anime Chat zone', url='https://telegram.me/AA_Chat_Zone')
         ],[
         InlineKeyboardButton('♨️ Help', callback_data='help'),
         InlineKeyboardButton('ⓘ About', callback_data='about'),
