@@ -62,7 +62,7 @@ ABOUT_TEXT = """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Updates Channel', url='https://telegram.me/SCTbots'),
-        InlineKeyboardButton('Support Group', url='https://telegram.me/SCT_Bot_Support')
+        InlineKeyboardButton('Support Group', url='https://telegram.me/sctbotssupport')
         ],[
         InlineKeyboardButton('Anime Index', url='https://telegram.me/AnimeArchivers')
        
@@ -74,14 +74,14 @@ START_BUTTONS = InlineKeyboardMarkup(
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⌂ Home', callback_data='home'),
+        InlineKeyboardButton('⌂ Back', callback_data='home'),
         InlineKeyboardButton('ⓘ About', callback_data='about'),
         InlineKeyboardButton('✖ Close', callback_data='close')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⌂ Home', callback_data='home'),
+        InlineKeyboardButton('⌂ Back', callback_data='home'),
         InlineKeyboardButton('♨️ Help', callback_data='help'),
         InlineKeyboardButton('✖ Close', callback_data='close')
         ]]
