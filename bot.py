@@ -64,8 +64,8 @@ START_BUTTONS = InlineKeyboardMarkup(
         InlineKeyboardButton('Updates Channel', url='https://telegram.me/SCTbots'),
         InlineKeyboardButton('Support Group', url='https://telegram.me/SCT_Bot_Support')
         ],[
-        InlineKeyboardButton('Anime Index', url='https://telegram.me/AnimeArhcivers'),
-        InlineKeyboardButton('Anime Chat zone', url='https://telegram.me/AA_Chat_Zone')
+        InlineKeyboardButton('Anime Index', url='https://telegram.me/AnimeArchivers')
+       
         ],[
         InlineKeyboardButton('♨️ Help', callback_data='help'),
         InlineKeyboardButton('ⓘ About', callback_data='about'),
