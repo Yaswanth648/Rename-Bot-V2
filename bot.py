@@ -275,7 +275,7 @@ async def rename(bot, message):
         if len(file_name) > 64:
             await message.reply_text(text=f"You Gotta Be Kidding Me...Decrease The Number Of Letters😆😉\n[64 Characters]")
             return
-        description = "<b>📁 File Name : " + file_name + "</b>"
+        description = "<b> " + file_name + "</b>"
         download_location = DOWNLOAD_LOCATION + "/"
         thumb_image_path = download_location + "FayasNoushad " + str(message.from_user.id) + ".jpg"
         if not os.path.exists(thumb_image_path):
@@ -323,7 +323,7 @@ async def rename(bot, message):
                     video=new_file_name,
                     thumb=thumb_image_path,
                     caption=description,
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚡ Join Updates Channel ⚡', url='https://telegram.me/cartoon_seriesz')]]),
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚡ Join Updates Channel ⚡', url='https://telegram.me/SCTbots')]]),
                     reply_to_message_id=message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=("<b>Uploading 📤</b>\n", a, c_time)
@@ -344,7 +344,7 @@ async def rename(bot, message):
                     document=new_file_name,
                     thumb=thumb_image_path,
                     caption=description,
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/cartoon_seriesz')]]),
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/SCTbots')]]),
                     reply_to_message_id=message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=("<code>Uploading 📤</code>", a, c_time)
