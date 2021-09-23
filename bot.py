@@ -258,7 +258,7 @@ async def cus_name(bot, message):
 async def force_name(bot, message):
     await bot.send_message(
         message.reply_to_message.from_user.id,
-        text="Enter New Name for Media with File Type\n\nExample :- <code>sample.mkv | media</code>",
+        text="Enter New Name for Media with File Type\n\nExample :- <code>sample.mkv | file</code>",
         reply_to_message_id=message.reply_to_message.message_id,
         reply_markup=ForceReply(True)
     )
